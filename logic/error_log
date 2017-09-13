@@ -1,0 +1,1 @@
+[23-Jul-2017 23:19:28 Africa/Johannesburg] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/alphatobetaco/crm.alphatobeta.co.za/logic/globalFunction.php:110) in /home/alphatobetaco/crm.alphatobeta.co.za/logic/globalFunction.php on line 124

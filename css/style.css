@@ -1,0 +1,280 @@
+/*.toggler{display:none !important;}*/
+#test{width: 50px; !important;}
+.menu-wrapper{top:25% !important; }
+.mine{
+    background:#F8F8F8 !important;
+    background-color:#292C2F !important;
+}
+.input-group-addon{top:0px !important;}
+
+.divMenu{
+	margin-left:0px !important;
+    margin-right:0px !important;
+}
+.row{
+    margin-left:0px !important;
+    margin-right:0px !important;
+}
+.panel-heading{padding-left:25px !important;}
+.panel-default{margin:30px 0;}
+.tile {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.tile .title{margin-top:0px;}
+.tile.purple, .tile.blue, .tile.red, .tile.orange, .tile.green, .tile.grey{color:#fff;}
+.tile.purple, a.purple{background: #7ccc63;}
+.tile.purple:hover, a.purple{background: #6fb759;}
+.tile.red,  a.red{background: #f39c12;}
+.tile.red:hover,  a.red{background: #f4a529;}
+.tile.green,  a.green{background: #008C89;}
+.tile.green:hover,  a.green {background: #216260;}
+.tile.blue,  a.blue {background: #e74c3c;}
+.tile.blue:hover,  a.blue{background: #cf4436;}
+.tile.orange,  a.orange{background: #2c3e50;}
+.tile.orange:hover,  a.orange{background: #415161;}
+.tile.grey,  a.grey{background:#808080;}
+.tile.grey:hover,  a.grey{background:#aaafb3;}
+.paid{
+	margin-left: 23% !important;
+}
+.notPaid {
+	margin-left: 23% !important;
+}
+input[type=checkbox] {width:100px; height:30px;}
+/*Logout Nav*/
+	
+.navbar-login
+{
+    width: 305px;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.navbar-login-session
+{
+    padding: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.icon-size
+{
+    font-size: 87px;
+}
+/*Logout ends*/
+
+
+/*Nav start*/
+body {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* font-size: 1.25em; */
+  line-height: 1.75em;
+  color: #384047;
+  background: #384047;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial;
+  /* font-weight: 400; */
+  
+}
+
+img {
+  
+  width: 100%;
+  
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+  margin: 0 5% 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header {
+	margin-top:25px;
+    width: 5%;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    transition: .32s ease-out;
+    z-index: 2;
+    background: #384047;
+}
+
+header a, .navBtn {
+  
+  color: #fff;
+
+}
+
+.toggle {
+    width: 312px;
+}
+
+.reveal {
+    opacity: 1;
+    left: 0;
+}
+
+nav {
+    padding-left: 360px;
+    overflow: hidden;
+    position: absolute;
+    transition: .3s ease-out;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    height: 100%;
+}
+    nav a {
+        float: left;
+        padding: 8px 0;
+        opacity: .5;
+        width: 100%;
+        transition: .3s ease;
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 1.85em;
+    }
+        nav a:hover, .current, .toggle .navBtn {
+            opacity: 1;
+        }
+
+    .toggle nav {
+        padding-left: 60px;
+        opacity: 1;
+    }
+
+.navBtn {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 30px 0 0;
+    width: 100%;
+    text-align: center;
+    line-height: 1em;
+    -webkit-transform:rotate(0deg);
+    transition: .3s ease-out;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1000001;
+    opacity: .5;
+    left: 0;
+}
+
+    .toggle .navBtn{
+        -webkit-transform:rotate(224deg); 
+        color: #fff;
+        left: -100px;
+    }
+
+.navBtn:hover {
+    opacity: 1;
+}
+
+.main {
+    /* background: #f6f6f6; */
+    float: right;
+    width: 95%;
+    margin: 0 0 0 5%;
+    padding: 0;
+    transition: .6s ease-in;
+    overflow: hidden;
+    z-index: 2;
+}
+
+/* h3 {
+  font-size: 3em;
+  color: #EAC734;
+  font-weight: 300;
+  transition: .6s ease-in;
+  line-height: 1em;
+} */
+
+/* .row {
+  padding: 40px 10%;
+}
+ */
+.push {
+    margin-left: 240px;
+    margin-right: -240px;
+    transition: .3s ease-in;
+}
+
+.overlay {
+    width: 100%;
+    background: #384047;
+    opacity: .85;
+    z-index: 1;
+    height: 100%;
+    position: fixed;
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+/* 1024 */
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+    header {
+        width: 8%;
+    }
+    .main {
+      width: 92%;
+    }
+}
+
+/* 768 */
+@media only screen and (max-width: 768px) {
+    header {
+        width: 10%;
+    }
+    .main {
+      width: 90%;
+    }
+
+}
+
+/* 480 */
+@media only screen and (max-width: 480px) {
+    header {
+        width: 10%;
+    }
+    .main {
+      width: 90%;
+    }
+    h3 {
+      font-size: 2em;
+
+}
+
+/* 320 */
+@media only screen and (max-width: 320px) {
+    header {
+        width: 15%;
+    }
+    .main {
+      width: 85%;
+    }
+
+}
+/*Nav ends*/
+

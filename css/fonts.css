@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Asphalts';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Asphalts'), local('Asphalts'), url("fonts/Asphalts%20and%20Shorelines%20Cover%206.png") format('truetype');
+}
+
+@font-face {
+    font-family: 'Black Sand';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Black Sand'), local('Black Sand'), url("fonts/Black Sand.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'CaviarDreams';
+    font-style: normal;
+    font-weight: 400;
+    src: local('CaviarDreams'), local('CaviarDreams'), url(fonts/CaviarDreams.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Kelvetica';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Kelvetica'), local('Kelvetica'), url(fonts/Kelvetica.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Champagne';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Champagne'), local('Champagne'), url("fonts/Champagne & Limousines Bold Italic.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'ChelseaMarket';
+    font-style: normal;
+    font-weight: 500;
+    src: local('ChelseaMarket'), local('ChelseaMarket'), url("fonts/ChelseaMarket-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Chipotle';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Chipotle'), local('Chipotle'), url("fonts/Chipotle-Regular.otf") format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Chipotle';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Chipotle'), local('Chipotle'), url("fonts/Chipotle-Regular.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Computerfont';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Computerfont'), local('Computerfont'), url("fonts/Computerfont.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Dolce';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Dolce'), local('Dolce'), url("fonts/Dolce Vita Heavy Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Dolce Vita';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Dolce Vita'), local('Dolce Vita'), url("fonts/Dolce Vita.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Dream Orphans';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Dream Orphans'), local('Dream Orphans'), url("fonts/dream orphans bd it.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'LANECANE';
+    font-style: normal;
+    font-weight: 700;
+    src: local('LANECANE'), local('LANECANE'), url("fonts/LANECANE.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'LANENAR';
+    font-style: normal;
+    font-weight: 700;
+    src: local('LANENAR'), local('LANENAR'), url("fonts/LANENAR_.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'LemonMilk';
+    font-style: normal;
+    font-weight: 200;
+    src: local('LemonMilk'), local('LemonMilk'), url("fonts/LemonMilk.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'September Mornings';
+    font-style: normal;
+    font-weight: 200;
+    src: local('September Mornings'), local('September Mornings'), url("fonts/September Mornings.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Sweetly Broken';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Sweetly Broken'), local('Sweetly Broken'), url("fonts/Sweetly Broken.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Lobster'), local('Sweetly Broken'), url("fonts/Lobster 1.4.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Reisenberg';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Reisenberg'), local('Reisenberg'), url("fonts/Reisenberg.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'GANG BANG CRIME';
+    font-style: normal;
+    font-weight: 200;
+    src: local('GANG BANG CRIME'), local('GANG BANG CRIME'), url("fonts/GANG BANG CRIME.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'SouthernAire_Personal_Use_Only';
+    font-style: normal;
+    font-weight: 200;
+    src: local('SouthernAire_Personal_Use_Only'), local('SouthernAire_Personal_Use_Only'), url("fonts/SouthernAire_Personal_Use_Only.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Steinerlight';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Steinerlight'), local('Steinerlight'), url("fonts/Steinerlight.ttf") format('truetype');
+}
+
